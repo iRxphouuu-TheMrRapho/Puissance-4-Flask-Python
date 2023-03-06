@@ -20,17 +20,17 @@ Tout les utilisateurs arrivent par défaut sur la page / nommé home. L'utilisat
 ## Fonctions notables
 En plus des descriptions directements implémentés dans pythons, voici quelques fonctions notables :
 
-"""
+'''
 game.py#verify_win(self, player) Qui prend en paramètre le joueur qui a posé le dernier jeton, et qui renvoie un boolean : si il a gagné ou non. app.py#handle_playing(data_) Qui prend en paramètre les donnée reçu du client, cette fonction s'execute lorsque le joueur clique sur une case depuis son navigateur. app.py#home() Fonction initial, elle est executé lorsque un joueur se connecte sur la page web principale
-"""
+'''
 
 ##Installation
 Le projet requière Python en version 3.10.2 Le projet requiere les différentes dépendencies suivantes :
-"""
+'''
 simple-web-socket (version 0.5.1)
 flask (version 2.0.3)
 flask-socketio (version 5.1.1)
 markupsafe (version 2.1.0)
 random (version compatible avec Python 3.10.2)
 Après avoir executé le fichier nommé app.py, suivez les instructions et cliquer sur le lien affiché sur la console.
-"""
+'''
